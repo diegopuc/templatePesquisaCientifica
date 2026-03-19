@@ -1,0 +1,8 @@
+name: nome-do-projeto
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requisitos.txt
